@@ -1,0 +1,557 @@
+.loguitoarg{
+     mix-blend-mode: multiply;
+     margin-top: auto;
+     margin-bottom:40px;
+     
+}
+.navbar .container-fluid {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+}
+
+.navbar-collapse {
+    justify-content: center;
+}
+
+.navbar-nav {
+    position: absolute;
+    left: 43%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+     padding-top: 30px;
+}
+
+.navbar .nav-link {
+   
+    font-size: 20px;
+    font-weight: 500;
+    padding: 8px 32px !important;
+}
+.navbar{
+    border-bottom: 3px solid gray ;
+    background-color: lightblue !important;
+  
+}
+.seccion-historia {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.seccion-historia h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+
+.timeline {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.timeline-item {
+    display: flex;
+    gap: 30px;
+}
+
+
+.timeline-date {
+    min-width: 70px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    padding-top: 5px;
+    color:rgb(0, 65, 117);
+    border-bottom: 5px solid rgb(255, 217, 0);
+}
+
+
+.timeline-content {
+    position: relative;
+    border-left: 3px solid #eb3030;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    color: rgb(253, 253, 251);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    border-color: black;
+    font-size: 20px;
+}
+
+
+.timeline-content::before {
+    content: "";
+    position: absolute;
+
+    width: 12px;
+    height: 12px;
+
+    background-color: white;
+    border: 3px solid #333;
+    border-radius: 50%;
+
+    left: -9px;
+    top: 5px;
+}
+
+
+.timeline-content h3 {
+    margin: 0 0 10px 0;
+    font-size: 22px;
+}
+
+
+.timeline-content p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.titulo-navbar {
+    width:900px;
+
+    text-align: center;
+    margin-bottom: auto;
+    margin-top:auto;
+    margin-right: 520px;
+}
+
+.titulo-navbar h1 {
+    font-size: 35px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    font-weight: bold;
+margin-bottom: 80px;
+margin-left: auto;
+margin-right: 280px;
+border-bottom: 1px solid rgb(129, 10, 10);
+width:40%;
+color:#1A1A1A
+
+}
+section{
+    width: 80%;
+    margin-right:auto;
+    margin-left:120px;
+    font-size:18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section h2, section h1{
+    margin-top: 20px;
+    margin-bottom:40px;
+    color:rgb(100, 12, 12);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, monospace;
+}
+body{
+   
+    background-color: rgb(196, 196, 196) !important;
+}
+.navbar{
+    background-color: rgb(208, 243, 255) !important;
+}
+.footer {
+    background-color: #000000 ;
+    color: white;
+    margin-top: 60px;
+}
+
+
+.footer-contenido {
+    width: 85%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+    gap: 50px;
+
+    padding: 45px 0;
+}
+.timeline-content h3{
+    color:#f00101;
+}
+
+
+.footer-info {
+    width: 35%;
+}
+
+.footer-info h3 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.footer-info p {
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+
+.footer-enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-enlaces h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-enlaces a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-enlaces a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+.footer-datos {
+    width: 25%;
+}
+
+.footer-datos h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.footer-datos p {
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+
+
+
+.footer-final {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+
+    text-align: center;
+
+    padding: 15px;
+}
+
+.footer-final p {
+    margin: 0;
+    font-size: 14px;
+}
+.importancia-saavedra {
+    width: 85%;
+    max-width: 1100px;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.importancia-saavedra h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.introduccion {
+    width: 75%;
+    margin: 0 auto 50px;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+
+
+
+.tarjetas-historia {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.tarjeta-historia {
+    width: 30%;
+    padding: 30px 25px;
+
+    background-color: #f5f5f5;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+
+    transition: 0.3s;
+}
+
+
+
+
+.tarjeta-historia:hover {
+    transform: translateY(-10px);
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+
+
+
+.icono {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.tarjeta-historia h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.tarjeta-historia p {
+    line-height: 1.6;
+    color: #555;
+}
+
+
+
+
+.ver-mas {
+    display: block;
+
+    margin-top: 20px;
+
+    font-weight: bold;
+    color: #1e3a5f;}
+    .cornudo{
+        max-width: 1100px;
+        width: 85%;
+        margin-right: auto;
+        margin-left: 390px;
+        height: 550px;
+        margin-top:70px;
+        border-radius: 40px;
+        border: 2px solid black;
+      
+    }
+    footer{
+        background-color: #b1b1b1;
+    }
+    .pj{
+        width:75%;
+        height: 600px;
+        margin: 50px 200px;
+        border-radius: 15px;
+    }
+ table {
+    
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  margin: 20px 30px;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+td{
+    color:#811414
+}
+.elcorne{
+    color:#3b0000;
+    margin: 40px 60px;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    width: 30%;
+}
+.linis{
+    border-bottom: 1px solid black;
+    width:50%
+}
+.seccion-monumentos {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.seccion-monumentos h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cards-monumentos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-monumento {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 8px #00000030;
+    margin: 50px 100px;
+}
+
+.card-monumento img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-contenido {
+    padding: 20px;
+}
+
+.card-contenido h3 {
+    margin-top: 0;
+}
+
+.card-contenido p {
+    line-height: 1.5;
+}
+.conmem{
+    margin-top: 70px;
+    margin-bottom:70px;
+    margin-left: 300px;
+    border-bottom: 2px solid white;
+    width: 25%;
+}
+.video-historia {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.video-historia video {
+    width: 1100px;
+    height:500px;
+    border: 5px solid gray;
+}
+#galeriaSaavedra {
+    width: 90%;
+    margin: 40px auto;
+    border: 3px solid black;
+}
+
+#galeriaSaavedra img {
+       width: 100%;
+    height: 500px;
+    object-fit: contain;
+    background-color: #222;}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+
+.carousel-caption h5 {
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    font-size: 16px;
+}
+
+
+
+
+section ul {
+    line-height: 1.8;
+}
+
+section li {
+    margin-bottom: 10px;
+}
+
+
+
+
+blockquote {
+    width: 80%;
+    margin: 30px auto;
+    padding: 20px;
+    border-left: 5px solid #811414;
+    background-color: #eeeeee;
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+
+
+section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.recreacion {
+    width: 85%;
+    margin: 70px auto;
+    padding: 40px;
+    text-align: center;
+    background-color: #eeeeee;
+    border-top: 4px solid #811414;
+    border-bottom: 4px solid #811414;
+}
+
+.recreacion h2 {
+    margin-bottom: 25px;
+}
+
+.recreacion p {
+    width: 80%;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.recreacion video {
+    width: 90%;
+    height: 500px;
+    border: 4px solid #555;
+}
+.fuentes {
+    width: 85%;
+    margin: 80px auto 40px;
+    padding: 35px;
+    background-color: #d6d6d6;
+    border: 2px solid #777;
+    border-radius: 10px;
+}
+
+.fuentes h2 {
+    margin-bottom: 25px;
+    border-bottom: 2px solid #811414;
+    padding-bottom: 10px;
+}
+
+.fuentes p {
+    line-height: 1.6;
+}
+
+.fuentes li {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.fuentes-final {
+    margin-top: 30px;
+    font-style: italic;
+    border-top: 1px solid #777;
+    padding-top: 20px;
+}
+.offcanvas-title{
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
